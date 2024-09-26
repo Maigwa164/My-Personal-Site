@@ -165,72 +165,21 @@ section {
 .section__text__p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
+  color: #d35400;
+  height: 50px; /* Set a fixed height to prevent resizing */
+  overflow: hidden; /* Hide any overflowing content */
 }
 .title {
   font-size: 3rem;
   text-align: center;
 }
 
-#social-container {
+#socials-comtainer {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
   gap: 1rem;
 }
-
-/*Dynamic text
-.wrapper {
-  display: inline-flex;
-}
-
-.wrapper.static-txt {
-  color: #fff;
-  font-size: 60px;
-  font-weight: 400;
-}
-
-.wrapper .dynamic-txt {
-  margin-left: 15px;
-  height: 90px;
-  line-height: 90px;
-  /*overflow: hidden;
-}
-
-.wrapper .dynamic-txt li {
-  color: #fc6d6d;
-  list-style: none;
-  font-size: 60px;
-  font-weight: 500;
-  position: relative;
-  top: 0;
-  animation: slide 6s steps(4) infinite;
-}
-@keyframes slide {
-  100% {
-    top: -360px;
-  }
-}
-
-.dynamic-txt li span {
-  position: relative;
-}
-
-.dynamic-txt li span::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: #343f4f;
-  border-left: 2px solid #fc6d6d;
-  animation: typing 1.5s steps(10) infinite;
-}
-@keyframes typing {
-  100% {
-    left: 100%;
-    margin: 0 -35px 0 35px;
-  }
-*/
 /*icons*/
 .icon {
   cursor: pointer;
