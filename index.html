@@ -14,6 +14,7 @@
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#beyondtec">Beyond Tec</a></li>
         <li><a href="#achievements">Achievements</a></li>
         <li><a href="#contact">Contact Me</a></li>
       </div>
@@ -30,6 +31,7 @@
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#beyondtec" onclick="toggleMenu()">Beyond Tec</a></li>
           <li>
             <a href="#achievements" onclick="toggleMenu()">Achievements</a>
           </li>
@@ -81,6 +83,44 @@
         </div>
       </div>
     </section>
-    <script src="script.js"></script>
+
+    <section id="about">
+      <!-- <p class="section__text__p1">Get to know me</p> -->
+      <h1 class="title">About me</h1>
+      <div class="section-container">
+        <div class="section_pic-container">
+          <img src="assets/about.gif" class="about-pic"">
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img src="assets/exp.webp" alt="exp icon" class="icon" />
+              <h3>Experience</h3>
+              <p>1+ years<br />Fullstack Developer</p>
+            </div>
+            <div class="details-container">
+              <img src="assets/edu.webp" alt="udu icon" class="icon" />
+              <h3>Education</h3>
+              <p>Bachelor’s Degree<br />Computer Science</p>
+            </div>
+          </div>
+          <div class="text-containter">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Accusamus a corporis assumenda consectetur doloribus vero iure,
+              vitae tenetur praesentium consequuntur omnis ipsam consequatur
+              ullam temporibus eum molestiae voluptatibus voluptatem in?
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="assets/arrow.png"
+        alt="arrow"
+        class="icon arrow"
+        onclick="location.href='#experience'"
+      />
+    </section>
+    <script src="script.js" alt="ProfileImage"></script>
   </body>
 </html>
